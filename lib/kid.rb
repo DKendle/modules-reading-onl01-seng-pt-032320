@@ -11,5 +11,6 @@ class Kid
     @name = name
   end
   
-  
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods
 end
